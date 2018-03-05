@@ -1,345 +1,552 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-	  <meta charset="utf-8">
-	  <title>Sendega Class</title>
-	  <link href="css/style.css" rel="stylesheet" type="text/css">
-	  <link href="css/bootstrap.min.css" rel="stylesheet">
-	  <link href="css/font-awesome.min.css" rel="stylesheet">
-	  <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700|Gabriela|PT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
-	<link rel="stylesheet" href="css/animate.css">
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/main-js.js"></script>
-  </head>
-  <body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-  <!-- HEADER -->
-	<header class="header jumbotron">
-		<div class="navbar">
-			<div class="container">
-				<div class="logo">
-					<a href="index.html"><img src="img/logo.png" alt="Logo"></a>
-				</div>
-				<nav>
-					<ul class="main-menu">
-						<li class="current"><a href="index.html">Главная</a></li>
-						<li><a href="#">Класс</a>
-							<ul class="sub-menu">
-								<li><a href="index-tutors.html">Преподаватели</a></li>
-								<li><a href="index-students.html">Ученики</a></li>
-								<li><a href="#">Рейтинг</a></li>
-							</ul>
-						</li>
-						<li><a href="index-post.html">Афиша</a></li>
-						<li><a href="#">Медиа</a>
-							<ul class="sub-menu">
-								<li><a href="index-gallery.html">Галерея</a></li>
-								<li><a href="index-music.html">Музыка</a></li>
-							</ul>
-						</li>
-						<li><a href="#">Рабочие будни</a>
-							<ul class="sub-menu">
-								<li><a href="index-schedule.html">Расписание</a></li>
-								<li><a href="index-notes.html">Ноты</a></li>
-							</ul>
-						</li>
-						<li><a href="index-contact.html">Контакты</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</header>
-<!-- /HEADER -->
+	<title>WebLiZeT</title>
 
-<!-- HOME -->	
-	<section class="home">
-		<div class="slideshow-container jumbotron">
-			<div class="slides shade">
-				<img src="img/slide-1.jpg" alt="slide-1" style="width:100%">
-				<div class="slides-text"><h1>"Величие искусства яснее всего проявляется в музыке"<br>Иоганн В. Гёте</h1></div>
-			</div>
-			<div class="slides shade">
-				<img src="img/slide-2.jpg" alt="slide-2" style="width:100%">
-				<div class="slides-text"><h1>"Музыка выражает то, что мы не можем сказать и то, о чем невозможно молчать"<br>Виктор Мари Гюго</h1></div>
-			</div>
-			<div class="slides shade">
-				<img src="img/slide-3.jpg" alt="slide-3" style="width:100%">
-				<div class="slides-text"><h1>"Музыка - это откровение<br> более высокое, чем<br> мудрость и философия"<br>Л. Бетховен</h1></div>
-			</div>
-			<div class="slides shade">
-				<img src="img/slide-4.jpg" alt="slide-4" style="width:100%">
-				<div class="slides-text"><h1 style="color: #343535">"Всякая музыка идет от<br> сердца и должна вновь<br> дойти до сердца"<br>Г. Гауптман</h1></div>
-			</div>
-		</div>
-		<br>
-			<!-- The dots/circles -->
-		<div style="text-align: center">
-			<span class="dot" onclick="currentSlide(1)"></span> 
-			<span class="dot" onclick="currentSlide(2)"></span> 
-			<span class="dot" onclick="currentSlide(3)"></span>
-			<span class="dot" onclick="currentSlide(4)"></span>
-		</div>
-	</section>
-<!-- /HOME -->
+	<!-- CSS -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
+	<link href="assets/css/animate.css" rel="stylesheet">
+    
+	<!-- Custom styles CSS -->
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+    
+    <script src="assets/js/modernizr.custom.js"></script>
+       
+</head>
+<body>
 
+	<!-- Preloader -->
 
-<!-- ABOUT -->
-<section class="about">
-	<div class="container">
-		<div class="section-title">
-			<h2>О НАС</h2>
-			<img src="img/about.png" alt="line" style="margin-bottom: 10px; margin-top: 30px">
-		</div>
-		<div class="about-text">
-			<p><b>Добро пожаловать на сайт класса саксофона и гобоя!</b><br>Здесь Вы сможете увидеть всю актуальную, а также архивную информацию касательно всего, что так или иначе связано с обучением музыке для детей и взрослых. Сайт создан недавно и информация на нем будет редактироваться, обновляться и расширяться.<br>В связи с ростом современных технологий гораздо проще стало общаться с родителями учеников и самими учениками посредством интернета. Это сподвигло нас на идею о создании площадки, где родители и ученики могли бы получить максимум отфильтрованной информации, которая была бы полезна, а также имела бы развлекательный характер.<br>Подробнее о возможностях.<br>В первую очередь это доступ ко всем новостям как Мира Музыки в целом, так и новостям касательно только нашего класса. Все объявления будут появляться изначально здесь.<br>Здесь вы сможете просмотреть фото и видео галерею, где по возможности будут собраны материалы с концертов и выступлений, как наших, так и с простора сети.<br>Здесь будут собраны методические материалы, мысли и статьи.<br>Здесь можно найти музыкальный материал, который дети проходят в музыкальной школе по муз. Литературе, а также то, что рекомендую именно я.<br>Также в разделе афиша вы сможете увидеть информацию о концертах проходящих в городе и концертах и конкурсах предстоящих нам.<br>(Раширяться)<br>Со временем на сайт будет добавлена страница рейтинга – хватит пользоваться журналом по старому образцу! С появлением рейтинга, на нашем сайте вы сможете следить за успеваемостью своего ребенка, а также сам ученик сможет просматривать свое место. Это добавит спортивного интереса и стремления в развитии.<br>Постепенно на сайт будет добавлены ссылки на сторонние сайты и стол заказов на расходные материалы и инструменты. Это избавит нас от поиска выгодных предложений по Украине, они уже будут собраны в одном месте.</p>
-		</div>
+	<div id="preloader">
+		<div id="status"></div>
 	</div>
-</section>
 
-<!-- ABOUT -->
+	<!-- Home start -->
 
-<!-- ADVANTAGES -->
-<!--<section class="advantages">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3">
-				<div class="column_item wow fadeIn" data-wow-duration="2s" data-wow-offset="100" data-wow-delay="0.1s">
-					<div class="advantages-item text-center">
-						<div class="icon">
-	                      <i class="fa fa-lightbulb-o shadow"></i>
-	                    </div>
-	                    <h2>Креативный подход</h2>
-	                </div>
-				</div>				
-			</div>
-			<div class="col-md-3">
-				<div class="column_item wow fadeIn" data-wow-duration="2s" data-wow-offset="100" data-wow-delay="0.6s">
-					<div class="advantages-item text-center">
-						<div class="icon">
-	                      <i class="fa fa-sign-language shadow"></i>
-	                    </div>
-	                    <h2>Выступления на концертах</h2>
-                    </div>
-				</div>				
-			</div>
-			<div class="col-md-3">
-				<div class="column_item wow fadeIn" data-wow-duration="2s" data-wow-offset="100" data-wow-delay="1.1s">
-					<div class="advantages-item text-center">
-						<div class="icon">
-	                      <i class="fa fa-music shadow"></i>
-	                    </div>
-	                    <h2>Интересный репертуар</h2>
-	                </div>
-				</div>				
-			</div>
-			<div class="col-md-3">
-				<div class="column_item wow fadeIn" data-wow-duration="2s" data-wow-offset="100" data-wow-delay="1.6s">
-					<div class="advantages-item text-center">
-						<div class="icon">
-	                      <i class="fa fa-star shadow"></i>
-	                    </div>
-	                    <h2>Участие в конкурсах</h2>
-	                </div>
-				</div>				
-			</div>
-		</div>
-	</div>
-</section>-->
-<!-- ADVANTAGES -->
-
-<!-- TUTORS -->
-<!--<section class="tutors">
-	<div class="container">
-		<div class="section-title">
-			<h2>НАШИ ПРЕПОДАВАТЕЛИ</h2>
-		</div>
-		<div class="row">
-			<div class="col-md-6">
-				<div class="tutors-item text-center wow fadeIn" data-wow-duration="2s" data-wow-offset="150" data-wow-delay="0.1s">
-					<img src="img/person_1.png">
-					<p style="margin-top: 20px">Специальность</p>
-					<h3>СЕНДЕГА МИХАИЛ ВЛАДИМИРОВИЧ</h3>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="tutors-item text-center wow fadeIn" data-wow-duration="2s" data-wow-offset="150" data-wow-delay="0.6s">
-					<img src="img/person_3.png">
-					<p style="margin-top: 20px">Концертмейстер</p>
-					<h3>РАТИНСКАЯ ОКСАНА БАТЬКОВНА</h3>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>-->
-<!-- TUTORS -->
-
-
-<!-- JOTTING -->
-<section class="jotting">
-	<div class="container">
-		<div class="section-title">
-			<h2>
-				<img src="img/sax-pic.png" alt="saxophone" style="margin-right: 10px">
-					ПАМЯТКА САКСОФОНИСТА
-				<img src="img/sax-pic.png" alt="saxophone" style="margin-left: 10px">
-			</h2>
-		</div>
-		<div style="text-align: right">
-			<p style="font-size: 14px">из семинаров Jamey Aebersold’s<br>перевод Rostovsax</p>
-		</div>
-		<div class="jotting-text">
-			<ul>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Два фактора препятствуют людям в импровизации: боязнь потеряться и страх сыграть не ту ноту.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Записывай свою собственную игру и слушай сам себя. Не будь критичен. Просто слушай.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Юмор – важнейшая часть творчества.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> ТВ подавляет воображение.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Невежество губит. Так же как курение.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Ты можешь заниматься час без перерыва?</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Если ты не думаешь перед тем, как сыграть фразу, это не импровизация, а просто упражнение.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Пой! Пой! Пой!</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Проще спеть то, что у тебя в голове, чем сыграть это на твоём инструменте, твоя цель – быть способным играть на инструменте то, что у тебя в голове.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Думай каждую ноту перед тем как её играть.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Кто-нибудь когда-нибудь умер от того, что слишком много думал?</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Не занимайся одним и тем же всё время – покоряй новые высоты.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Большая часть музыки состоит из двух-, четырёх- и восьмитактовых фраз.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Твой алфавит – хроматическая гамма, знай её от самой нижней ноты своего инструмента до самой высокой.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Обычно джазовые музыканты играют восьмыми – играй так гаммы и упражнения.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Артикуляция – ключевой компонент твоей индивидуальности. Занимайся артикуляцией – через 4-6 недель ты сможешь изменить свою музыкальную индивидуальность. Слушай профессионалов. Когда будешь заниматься упражнениями на артикуляцию, играй так медленно, чтобы было удобно и проще для пальцев. В этом случае ты сможешь сосредоточиться на артикуляции.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Одна из причин, что у тебя не такое звучание, как у тех парней на записи, это то, что ты не занимался артикуляцией.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Играй соло вместе с записью, надлежащим образом практикуя артикуляцию – имитируй мастеров.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Внушение направляет твою душу и воодушевляет.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Слушай и заимствуй идеи из записей.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> СЛУШАЙ! Ещё и ещё и ещё! Все ответы на твои вопросы есть в записях.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Слушай джаз каждый день.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Если ты хорошо оснащён технически - у тебя больше возможностей.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Не используй «минусы» для того, чтобы отсчитывать время, используй их, чтобы учится слышать каждую ТОНАЛЬНОСТЬ, которая играется.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> В действительности, джаз – взаимодействие между исполнителями.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Это круто – играть с людьми, которые немного или гораздо лучше играют, чем ты – они подталкивают тебя к импровизации.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Никто не рождается музыкантом. Хорошие инструменты и учителя важны, но исполнитель создаёт себя сам.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Ты не можешь представить как много времени, энергии и внимания джазовые музыканты вкладывают в своё дело. Чарли Паркер занимался от 11 до 15 часов в день в течение 3-4 лет.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Развивай слух – когда ты слышишь то, что пытаешься сыграть, всё становится проще.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Изучай расстояние между нотами – интервалы.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Звукоряды основаны на полутоновых и тоновых интервалах, аккорды основаны на мажорных (4 полутона) и минорных (3 полутона) терциях. Учись узнавать эти интервалы на слух.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Когда ты поёшь, представляй клавиатуру. Если не знаешь, в какой ты тональности – думай в «до».</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Играй известные и простые мелодии в 12 тональностях чтобы уметь воплощать на своём инструменте то, что звучит в голове.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Играй звукоряд непрерывно в течение двух минут быстрыми восьмыми пока не достигнешь автоматизма. Можешь глазки закрыть.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Если ты много ДУМАЕШЬ о том, что делаешь, ты и помнить будешь много.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> В истории джаза есть свой этикет – не пережимай.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> СЕКВЕНЦИЯ означает повторение аккорда, аккордовой модели или мелодической фразы в другой тональности.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Трать постоянно 15 или 30 минут в день у фортепиано, если ты духовик.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Моё среднее образование – мой камертон.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Записанная музыка – это поддержка. Вместо запоминания.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Транспонированные партии – это поддержка. В прошлые времена у нас не было сборников, мы снимали всё с записей и учились транспонировать с ходу. Мы пользовались своим слухом и памятью.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Хороший музыкант имеет в голове большой репертуар – он не сильно зависит от сборников.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Музыке не важно, кто её играет.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> «Играй то, что есть, зачем нам слушать твоё враньё?» - Арт Блэйки.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Когда ты, в конце концов, сыграешь то, что есть в твоей голове, ты впервые поймёшь, кто ты есть.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> «Нужно много времени, чтобы играть так, как ты сам» - Майлз.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Ты можешь найти ответы на все свои вопросы о джазе прослушиванием: СЛУШАЙ! СЛУШАЙ! СЛУШАЙ!</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Чтобы добиться своей цели: Подумай – Скажи – Сделай.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Обычный человек должен учиться играть ритмично – это не придёт само собой. Нужно пользоваться метрономом.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> В джазе ритм играет очень важную роль, пользуйся метрономом для занятий. Когда ты учишь звукоряды и аккорды всегда играй их в ритме и используй надлежащую артикуляцию.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Когда учишься музыке, начинать импровизировать нужно пораньше.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Музыка должна приносить радость – получай удовольствие от занятий.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Мелодия песни называется темой.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Препятствия дают шанс. Возвращайся к ступенькам, на которых ты споткнулся.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Начиная заниматься, не думай, что сможешь играть только когда усвоишь огромное количество информации и овладеешь большим искусством – лучше начинай играть ПРЯМО СЕЙЧАС!</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Ты не можешь слушать достаточное количество записей – но это так важно!</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Если у тебя плохой звук, кому нужно то, что тебе есть что сказать – даже если у тебя гениальные идеи.</li>
-				<li><img src="img/icon-sax.png" alt="icon-sax"> Музыка – между твоих ушей…</li>
+	<section id="home" class="pfblock-image screen-height">
+        <div class="home-overlay"></div>
+		<div class="intro">
+			<div class="start">Hello, my name is Elizabeth Sendega and I am</div>
+			<h1>Front-end Developer</h1>
+			<div class="start">creating modern and responsive Web Application</div>
+			<ul class="intro-social">
+				<li><a href="https://www.facebook.com/elizabeth.weblizet.5" target="_blank"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="https://github.com/WebLiZeT" target="_blank"><i class="fa fa-github"></i></a></li>
+				<li><a href="https://ru.pinterest.com/lizasendega/" target="_blank"><i class="fa fa-pinterest-square"></i></a></li>				
 			</ul>
-			<div class="notes-pic text-center">
-				<img src="img/notes2.png" alt="notes">
-			</div>
 		</div>
-	</div>
-</section>
-<!-- JOTTING -->
 
+        <a href="#services">
+		<div class="scroll-down">
+            <span>
+                <i class="fa fa-angle-down fa-2x"></i>
+            </span>
+		</div>
+        </a>
 
-<!-- FOOTER -->
-	<footer class="footer jumbotron">
+	</section>
+
+	<!-- Home end -->
+
+	<!-- Navigation start -->
+
+	<header class="header">
+
+		<nav class="navbar navbar-custom" role="navigation">
+
+			<div class="container">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">Elizabeth Sendega</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="custom-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Works</a></li>
+                        <li><a href="#process">Process</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+
+			</div><!-- .container -->
+
+		</nav>
+
+	</header>
+
+	<!-- Navigation end -->
+
+    <!-- Services start -->
+
+	<section id="services" class="pfblock pfblock-gray">
 		<div class="container">
 			<div class="row">
-      			<div class="col-md-4">
-      				<div class="column_item">
-						<div class="photostream">
-							<h3>ФОТОГАЛЕРЕЯ</h3><br>
-							<div class="mini-photos">
-								<ul>
-									<li>
-										<a href="#" target="_blank" title="Photo_1"><img src="img/1_1.jpg" alt="Photo_1"></a>
-									</li>
-									<li>
-										<a href="#" target="_blank" title="Photo_2"><img src="img/1_2.jpg" alt="Photo_2"></a>
-									</li>
-									<li>
-										<a href="#" target="_blank" title="Photo_3"><img src="img/1_3.jpg" alt="Photo_3"></a>
-									</li>
-									<li>
-										<a href="#" target="_blank" title="Photo_4"><img src="img/1_4.jpg" alt="Photo_4"></a>
-									</li>
-									<li>
-										<a href="#" target="_blank" title="Photo_5"><img src="img/1_5.jpg" alt="Photo_5"></a>
-									</li>
-									<li>
-										<a href="#" target="_blank" title="Photo_6"><img src="img/1_6.jpg" alt="Photo_6"></a>
-									</li>
-									<li>
-										<a href="#" target="_blank" title="Photo_7"><img src="img/1_7.jpg" alt="Photo_7"></a>
-									</li>
-									<li>
-										<a href="#" target="_blank" title="Photo_8"><img src="img/1_8.jpg" alt="Photo_8"></a>
-									</li>
-									<li>
-										<a href="#" target="_blank" title="Photo_9"><img src="img/1_9.jpg" alt="Photo_9"></a>
-									</li>
-								</ul>
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<div class="pfblock-header wow fadeInUp">
+						<h2 class="pfblock-title">This is what I do</h2>
+						<div class="pfblock-line"></div>
+						<div class="pfblock-subtitle">
+							Hello. I'm Elizabeth, junior front-end developer. I'm enthusiastic, fast in learning, passionate about learning new technologies and enjoy coding. I can deliver the results requested at the best timing and under strict deadlines. Looking for new interesting projects which I will be proud of.
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-sm-3">
+
+					<div class="iconbox wow slideInLeft">
+						<div class="iconbox-icon">
+							<span class="icon-picture"></span>
+						</div>
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Web Design</h3>
+							<div class="iconbox-desc">
+								And converting PSD mockups to HTML/CSS using needed tools & plugins (BEM, PerfectPixel, Kotatsu, Validation, etc.).
 							</div>
 						</div>
 					</div>
+
 				</div>
-				<div class="col-md-4">
-      				<div class="column_item">
-						<div class="footer-contacts">
-							<h3>КОНТАКТЫ</h3><br>
-							<p><i class="fa fa-map-marker"></i>Детская музыкальная школа №3<br><pre>      ул. Независимой Украины, 36,<br>      г. Запорожье, 69032</pre></p>
-							<p><i class="fa fa-mobile"></i> (095) 339-59-77</p>
-							<p><i class="fa fa-money"></i>Р/р 31552202178443<br><pre>       ЄДРПОУ 37573471<br>       МФО 813015 0364/09214</pre></p>
-							<p><i class="fa fa-envelope"></i>Sendega89@gmail.com</p>
+
+				<div class="col-sm-3">
+
+					<div class="iconbox wow slideInLeft">
+						<div class="iconbox-icon">
+							<span class="icon-screen-smartphone"></span>
+							<span class="icon-screen-desktop"></span>
 						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-      				<div class="column_item">
-						<div class="last-post">
-							<h3>ПОСЛЕДНИЕ НОВОСТИ</h3><br>
-							<div class="last-post-item">
-								<div class="last-post-title">
-									<h4>Заголовок поста</h4>
-								</div>
-								<div class="last-post-meta-data">
-									<span>13 декабря 2017 г.</span>
-								</div>
-								<div class="last-post-content">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse aliquet… Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque.</p>
-								</div>
-								<div class="button last-post-btn"><a href="#">Подробнее</a></div>
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Responsive Layout</h3>
+							<div class="iconbox-desc">
+								Creating adaptive and responsive web applications using Twitter Bootstrap framework. Clean, compatible code.
 							</div>
 						</div>
 					</div>
+
+				</div>
+
+				<div class="col-sm-3">
+
+					<div class="iconbox wow slideInRight">
+						<div class="iconbox-icon">
+							<span class="icon-magic-wand"></span>
+						</div>
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Web Programming</h3>
+							<div class="iconbox-desc">
+								Integrating JavaScript, jQuery and other JS libs/plugins to create interactive web pages (sliders, animation, creative galleries, etc.) 
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-sm-3">
+
+					<div class="iconbox wow slideInRight">
+						<div class="iconbox-icon">
+							<span class="icon-question"></span>
+						</div>
+						<div class="iconbox-text">
+							<h3 class="iconbox-title">Consultation</h3>
+							<div class="iconbox-desc">
+								Getting an operative answer to any question. All conditions of the project and tweaks are discussed in detail.
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</section>
+
+	<!-- Services end -->
+    
+	<!-- Portfolio start -->
+
+	<section id="portfolio" class="pfblock">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<div class="pfblock-header wow fadeInUp">
+						<h2 class="pfblock-title">My works</h2>
+						<div class="pfblock-line"></div>
+						<div class="pfblock-subtitle">
+							I propose to familiarize with my works, fulfilled in the process of education and practice in web development. All sites are cross-browser, using Twitter Bootstrap.
+						</div>
+					</div>
+
+				</div>
+
+			</div><!-- .row -->
+            
+            
+            <div class="row">
+                
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">
+                            <img src="assets/images/item-1.jpg" alt="img01"/>
+                            <figcaption>
+                                <h2>Beautiful <span>Sedona</span></h2>
+                                <p>Responsive syte for a little touristic town</p>
+                                <span class="view-btn">VIEW</span>
+                                <a href="https://weblizet.github.io/Sedona/"></a>
+                            </figcaption>			
+                        </figure>
+                    </div>
+                    
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4">
+            
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">
+                            <img src="assets/images/item-2.jpg" alt="img01"/>
+                            <figcaption>
+                                <h2>Be <span>Latte</span></h2>
+                                <p>Simple syte for a cafe and coffee-shop</p>
+                                <span class="view-btn">VIEW</span>
+                                <a href="https://weblizet.github.io/Be-Latte/"></a>
+                            </figcaption>			
+                        </figure>
+                    </div>
+                    
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4">
+            
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">
+                            <img src="assets/images/item-4.jpg" alt="img01"/>
+                            <figcaption>
+                                <h2>Shop <span>Brandly</span></h2>
+                                <p>Responsive syte for a trendy boutique</p>
+                                <span class="view-btn">VIEW</span>
+                                <a href="https://weblizet.github.io/Brandly/"></a>
+                            </figcaption>			
+                        </figure>
+                    </div>
+                    
+                </div>
+                
+                <!--<div class="col-xs-12 col-sm-4 col-md-4">
+            
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">
+                            <img src="assets/images/item-4.jpg" alt="img01"/>
+                            <figcaption>
+                                <h2>Bang <span>Bang</span></h2>
+                                <p>Lily likes to play with crayons and pencils</p>
+                            </figcaption>			
+                        </figure>
+                    </div>
+                    
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4">
+            
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">
+                            <img src="assets/images/item-5.jpg" alt="img01"/>
+                            <figcaption>
+                                <h2>Crypton <span>Dude</span></h2>
+                                <p>Lily likes to play with crayons and pencils</p>
+                            </figcaption>			
+                        </figure>
+                    </div>
+                    
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4">
+            
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">
+                            <img src="assets/images/item-6.jpg" alt="img01"/>
+                            <figcaption>
+                                <h2>Don't <span>Poke</span></h2>
+                                <p>Lily likes to play with crayons and pencils</p>
+                            </figcaption>			
+                        </figure>
+                    </div>
+                    
+                </div>-->
+                
+            </div>
+
+
+		</div><!-- .contaier -->
+
+	</section>
+
+	<!-- Portfolio end -->
+    
+    <!-- Process start -->
+    
+    <section class="pfblock pfblock-gray process text-center" id="process">
+		
+			<div class="container">
+			
+				<h2 class="pfblock-title">PROCESS</h2>
+		<div class="pfblock-line"></div>
+		<div class="process-girds">
+			<div class="col-md-2 process-pad">
+				<div class="process-gird wow fadeIn" data-wow-delay=".1s">
+					<div class="process-imagea"></div>
+					<p>IDEA</p>
+					<img src="assets/images/6.png" alt=""/>
 				</div>
 			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird wow fadeIn" data-wow-delay=".4s">
+					<div class="process-imageb"></div>
+					<p>CONCEPT</p>
+					<img class="pro-imga" src="assets/images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird wow fadeIn" data-wow-delay=".7s">
+					<div class="process-imagec"></div>
+					<p>DESIGN</p>
+					<img class="pro-img" src="assets/images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird wow fadeIn" data-wow-delay="1s">
+					<div class="process-imaged"></div>
+					<p>DEVELOP</p>
+					<img class="pro-imgb" src="assets/images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird wow fadeIn" data-wow-delay="1.3s">
+					<div class="process-imagee"></div>
+					<p>TEST</p>
+					<img src="assets/images/6.png" alt=""/>
+				</div>
+			</div>
+			<div class="col-md-2 process-pad">
+				<div class="process-gird wow fadeIn" data-wow-delay="1.6s">
+					<div class="process-imagef"></div>
+					<p>LAUNCH</p>
+					
+				</div>
+			</div>
+			<div class="clearfix"></div>
 		</div>
-	</footer>
-<!-- /FOOTER -->
+			
+			</div>
+		
+    </section>
+    
+    <!-- Skills end -->
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<link rel="stylesheet" href="css/animate.css">
-<script src="js/wow.min.js"></script>
-<script>
- new WOW().init();
-</script>
-<script src="js/main-js.js"></script>
-  </body>
+	<!-- CallToAction start -->
+
+	<section class="calltoaction">
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-md-12 col-lg-12">
+					<h2 class="wow slideInRight" data-wow-delay=".1s">ARE YOU READY TO START?</h2>
+					<div class="calltoaction-decription wow slideInRight" data-wow-delay=".2s">
+						I'm available for freelance projects.
+					</div>
+				</div>
+
+				<div class="col-md-12 col-lg-12 calltoaction-btn wow slideInRight" data-wow-delay=".3s">
+					<a href="#contact" class="btn btn-lg">Hire Me</a>
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</section>
+
+	<!-- CallToAction end -->
+
+	<!-- Testimonials start -->
+
+	<!--<section id="testimonials" class="pfblock pfblock-gray">
+
+		<div class="container">
+            
+            <div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<div class="pfblock-header wow fadeInUp">
+						<h2 class="pfblock-title">What my clients say</h2>
+						<div class="pfblock-line"></div>
+						<div class="pfblock-subtitle">
+							No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
+						</div>
+					</div>
+
+				</div>
+
+			</div><!-- .row -->
+
+            <!--<div class="row">
+
+			<div id="cbp-qtrotator" class="cbp-qtrotator">
+                <div class="cbp-qtcontent">
+                    <img src="assets/images/client-1.jpg" alt="client-1" />
+                    <blockquote>
+                      <p>Work with John was a pleasure. He understood exactly what I wanted and created an awesome site for my company.</p>
+                      <footer>Pino Caruso</footer>
+                    </blockquote>
+                </div>
+                <div class="cbp-qtcontent">
+                    <img src="assets/images/client-2.jpg" alt="client-2" />
+                    <blockquote>
+                      <p>I'm really happy with the results. Get 100% satisfaction is difficult but Alex got it without problems.</p>
+                      <footer>Jane Doe</footer>
+                    </blockquote>
+                </div>
+
+            </div>		
+
+            </div>
+
+					
+		</div>
+	</section>-->
+
+	<!-- Testimonial end -->
+
+
+	<!-- Contact start -->
+
+	<section id="contact" class="pfblock">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<div class="pfblock-header">
+						<h2 class="pfblock-title">Drop me a line</h2>
+						<div class="pfblock-line"></div>
+						<div class="pfblock-subtitle">
+							No one lights a lamp in order to hide it behind the door: the purpose of light is to create more light, to open people’s eyes, to reveal the marvels around.
+						</div>
+					</div>
+
+				</div>
+
+			</div><!-- .row -->
+
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<form id="contact-form" role="form">
+						<div class="ajax-hidden">
+							<div class="form-group wow fadeInUp">
+								<label class="sr-only" for="c_name">Name</label>
+								<input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name">
+							</div>
+
+							<div class="form-group wow fadeInUp" data-wow-delay=".1s">
+								<label class="sr-only" for="c_email">Email</label>
+								<input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail">
+							</div>
+
+							<div class="form-group wow fadeInUp" data-wow-delay=".2s">
+								<textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Message"></textarea>
+							</div>
+
+							<button type="submit" class="btn btn-lg btn-block wow fadeInUp" data-wow-delay=".3s">Send Message</button>
+						</div>
+						<div class="ajax-response"></div>
+					</form>
+
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</section>
+
+	<!-- Contact end -->
+
+	<!-- Footer start -->
+
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-12">
+
+					<ul class="social-links">
+						<li><a href="https://www.facebook.com/elizabeth.weblizet.5" class="wow fadeInUp"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://github.com/WebLiZeT" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-github"></i></a></li>
+						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="https://ru.pinterest.com/lizasendega/" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-pinterest"></i></a></li>
+						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+
+					<p class="heart">
+                        Made with <span class="fa fa-heart fa-2x animated pulse"></span> in Ukraine
+                    </p>
+                    <p class="copyright">
+                        © 2018 Elizabeth Sendega | Images: <a href="https://unsplash.com/">Unsplash</a> & <a href="http://zoomwalls.com/">Zoomwalls</a>
+					</p>
+
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</footer>
+
+	<!-- Footer end -->
+
+	<!-- Scroll to top -->
+
+	<div class="scroll-up">
+		<a href="#home"><i class="fa fa-angle-up"></i></a>
+	</div>
+    
+    <!-- Scroll to top end-->
+
+	<!-- Javascript files -->
+
+	<script src="assets/js/jquery-1.11.1.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
+	<script src="assets/js/imagesloaded.pkgd.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
+	<script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.easypiechart.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.cbpQTRotator.js"></script>
+	<script src="assets/js/custom.js"></script>
+
+</body>
 </html>
